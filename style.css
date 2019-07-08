@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 20px;
+}
+
+/* order: display, width, height, padding(t,r,b,l), border, outline, margin; */
+
+.header {
+	height: 4.25rem;
+	background-color: green; 
+	font-size: 1rem;
+	text-align: center;
+	transition: background-color 1s, height 1s;
+}
+.header:hover {
+	height: 6.89rem;
+	background-color: #ff0044;
+}
+	.label {
+		background-color: pink;
+	}
