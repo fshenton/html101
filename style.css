@@ -7,20 +7,30 @@
 html {
 	font-size: 20px;
 }
+body{
+	background-color: #333333;
+}
 
 /* order: display, width, height, padding(t,r,b,l), border, outline, margin; */
 
 .header {
-	height: 4.25rem;
-	background-color: green; 
+	height: 4rem;
+	background-color: purple; 
 	font-size: 1rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 	text-align: center;
-	transition: background-color 1s, height 1s;
-}
-.header:hover {
-	height: 6.89rem;
-	background-color: #ff0044;
+	transition: background-color 1s, height 1s, padding-top 1s, padding-bottom 1s;
+
 }
 	.label {
-		background-color: pink;
+		color: white;
+		font-family: Calibri;
 	}
+.header:hover {
+	height: 8rem;
+	background-color: #ff0044;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+	
