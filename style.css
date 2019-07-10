@@ -34,3 +34,21 @@ body{
 	padding-bottom: 3rem;
 }
 	
+
+.maincontent{
+	display: grid;
+	height: 500px;
+	grid-template-areas: "lb ca ca" 
+						   "lb ca ca";
+}
+
+.leftbar{
+	grid-area: lb;
+	background-color: red;
+}
+
+.contentarea{
+	grid-area: ca;
+	background-color: white;
+}
+
