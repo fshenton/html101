@@ -37,18 +37,24 @@ body{
 
 .maincontent{
 	display: grid;
-	height: 500px;
-	grid-template-areas: "lb ca ca" 
-						   "lb ca ca";
+	height: 800px;
+	grid-template-areas: "ip pc" "ip sc";
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 0.5fr 2fr;
 }
 
-.leftbar{
-	grid-area: lb;
+.infopanel{
+	grid-area: ip;
 	background-color: red;
 }
 
-.contentarea{
-	grid-area: ca;
+.primarycontent{
+	grid-area: pc;
 	background-color: white;
+}
+
+.secondarycontent{
+	grid-area: sc;
+	background-color: black;
 }
 
