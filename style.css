@@ -1,15 +1,9 @@
-* {
-	padding: 0;
-	border: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
+
 html {
-	
+	font-size: 20px;
 }
 body{
 	font-weight: normal;
-	font-size: 20px;
 	font-family: Helvetica;
 	color: black;
 }
@@ -128,3 +122,50 @@ body{
 		color: #7777FF;
 		background-color: blue;
 	}
+
+
+/*UNITS*/
+
+.pixeldiv{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
+
+.remdiv{
+	width: 4rem;
+	height: 4rem;
+	background-color: purple;
+}
+
+.emcontainer{
+	width: 200px;
+	height: 200px;
+	font-size: 10px;
+	background-color: orange;
+}
+
+.emdiv{
+	width: 10em;
+	height: 10em;
+	background-color: yellow;
+}
+
+.perccontainer{
+	width: 200px;
+	height: 200px;
+	font-size: 10px;
+	background-color: cyan;
+}
+
+.percdiv{
+	width: 50%;
+	height: 50%;
+	background-color: blue
+}
+
+.vpdiv{
+	width: 90vw;
+	height: 5vh;
+	background-color: grey;
+}
