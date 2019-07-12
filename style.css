@@ -14,12 +14,10 @@ body{
 	color: black;
 }
 
-/* header.h1
 
-header.h2 */
+/*BASIC DISPLAY TYPES*/
 
 .inlinesection{
-	/* display:inline; */
 }
 
 .fancyspan{
@@ -35,7 +33,6 @@ header.h2 */
 }
 
 .blockcontainer{
-	/* display:block; */
 }
 
 .blocksection{
@@ -49,4 +46,43 @@ header.h2 */
 .inlineblocksection{
 	display: inline-block;
 	background-color: blue;
+}
+
+
+/*BOX MODEL*/
+
+.inlineboxmodel{
+	display: inline;
+	width: 500px;
+	height: 200px;
+	padding: 15px;
+	border: 5px solid;
+	border-color: #ff0000;
+	margin-top: 20px;
+	color: #ccaa00;
+	background-color: #cc0000;
+}
+
+.inlineblockboxmodel{
+	display: inline-block;
+	width: 500px;
+	height: 200px;
+	padding: 15px;
+	border: 5px solid;
+	border-color: #ffff00;
+	margin-top: 20px;
+	color: #222222;
+	background-color: #cccc00;
+}
+
+.blockboxmodel{
+	display: block;
+	width: 500px;
+	height: 200px;
+	padding: 15px;
+	border: 5px solid;
+	border-color: #0000ff;
+	margin-top: 20px;
+	color: white;
+	background-color: #00aaff;
 }
