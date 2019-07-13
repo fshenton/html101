@@ -16,10 +16,11 @@ body{
 		linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
 	background-color: #131313;
 	background-size: 20px 20px;
+	text-align: center;
 }
 
 header{
-	
+	background-color: #666666;
 }
 
 header>h1{
@@ -34,6 +35,24 @@ header>h2{
 	display: block;
 	font-size: 2rem;
 	text-align: center;
+}
+
+.navbar{
+	background-color: #444444;
+	text-align: center;
+	height: 3rem;
+}
+
+.navbar>a{
+	display: inline-block;
+	margin: 1rem;
+	color: white;
+}
+
+.navbar>a:hover{
+	background-color: #222222;
+	color: grey;
+	outline: 10px solid;
 }
 
 /*BASIC DISPLAY TYPES*/
